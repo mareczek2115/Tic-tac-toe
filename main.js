@@ -1,5 +1,5 @@
-fields = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-len = fields.length;
+let fields = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+const len = fields.length;
 
 let round = "cross";
 document.getElementById("sign").setAttribute("src", "cross_small.png");
